@@ -10,11 +10,34 @@ import UIKit
 
 class MovieViewController: UIViewController {
 
+    @IBOutlet weak var MovieListTableView: UITableView!
+    
+    
+    let movieInfo = Movie.allMovies
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        MovieListTableView.delegate = self
+        MovieListTableView.dataSource = self
     }
 
 
 }
 
+extension MovieViewController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return movieInfo.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let movie = movieInfo[indexPath.row]
+        
+        let cell = MovieListTableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
+        cell.textLabel?.text = movie.name
+        cell.detailTextLabel?.text = movie.genre
+        return cell
+    }
+    
+    
+}
