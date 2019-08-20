@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C636EDF8230CA17600FC13E2 /* movieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636EDF7230CA17600FC13E2 /* movieDetailViewController.swift */; };
+		C636EDF8230CA17600FC13E2 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636EDF7230CA17600FC13E2 /* MovieDetailViewController.swift */; };
 		C636EDFA230CA18A00FC13E2 /* FontSizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636EDF9230CA18A00FC13E2 /* FontSizerViewController.swift */; };
 		CD8F8035230AE8E900CB87B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F8034230AE8E900CB87B0 /* AppDelegate.swift */; };
 		CD8F8037230AE8E900CB87B0 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F8036230AE8E900CB87B0 /* MovieViewController.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C636EDF7230CA17600FC13E2 /* movieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieDetailViewController.swift; sourceTree = "<group>"; };
+		C636EDF7230CA17600FC13E2 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		C636EDF9230CA18A00FC13E2 /* FontSizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizerViewController.swift; sourceTree = "<group>"; };
 		CD8F8031230AE8E900CB87B0 /* MVC+Delegation-Review-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC+Delegation-Review-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8F8034230AE8E900CB87B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			children = (
 				CD8F8036230AE8E900CB87B0 /* MovieViewController.swift */,
 				C636EDF9230CA18A00FC13E2 /* FontSizerViewController.swift */,
-				C636EDF7230CA17600FC13E2 /* movieDetailViewController.swift */,
+				C636EDF7230CA17600FC13E2 /* MovieDetailViewController.swift */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C636EDF8230CA17600FC13E2 /* movieDetailViewController.swift in Sources */,
+				C636EDF8230CA17600FC13E2 /* MovieDetailViewController.swift in Sources */,
 				CD8F8037230AE8E900CB87B0 /* MovieViewController.swift in Sources */,
 				CD8F8035230AE8E900CB87B0 /* AppDelegate.swift in Sources */,
 				CD8F8047230AEA9400CB87B0 /* Movie.swift in Sources */,

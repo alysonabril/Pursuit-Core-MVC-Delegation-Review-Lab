@@ -84,7 +84,7 @@
         <!--Movie Detail View Controller-->
         <scene sceneID="7XI-gQ-vam">
             <objects>
-                <viewController id="GB3-ve-wVs" customClass="movieDetailViewController" customModule="MVC_Delegation_Review_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="GB3-ve-wVs" customClass="MovieDetailViewController" customModule="MVC_Delegation_Review_Lab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c0C-bk-xN9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

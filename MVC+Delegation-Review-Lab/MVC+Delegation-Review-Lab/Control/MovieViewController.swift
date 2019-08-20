@@ -9,7 +9,7 @@
 import UIKit
 
 class MovieViewController: UIViewController {
-
+    
     @IBOutlet weak var MovieListTableView: UITableView!
     
     
@@ -21,8 +21,15 @@ class MovieViewController: UIViewController {
         MovieListTableView.dataSource = self
     }
     
-
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard let destination = segue.destination as? MovieDetailViewController,
+            let cellSelected = MovieListTableView.indexPathForSelectedRow else {return}
+        let movieSelected = movieInfo[cellSelected.row]//cellSelected is indexPath
+        
+        destination.movie = movieSelected
+    }
+    
 }
 
 extension MovieViewController: UITableViewDataSource, UITableViewDelegate {
