@@ -20,6 +20,7 @@ class MovieViewController: UIViewController {
         MovieListTableView.delegate = self
         MovieListTableView.dataSource = self
     }
+    
 
 
 }

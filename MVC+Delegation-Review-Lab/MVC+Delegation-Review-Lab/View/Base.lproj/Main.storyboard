@@ -45,6 +45,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="GB3-ve-wVs" kind="show" id="QJe-6l-EDR"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -65,6 +68,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Settings"/>
                             </button>
+                            <connections>
+                                <segue destination="T1S-f5-2vJ" kind="show" id="5WT-4t-PZG"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -113,6 +119,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yiS-wP-0dc"/>
                     </view>
+                    <connections>
+                        <outlet property="movieImage" destination="BAh-Fo-DZG" id="qd3-ZR-3yh"/>
+                        <outlet property="movieName" destination="7n0-Sd-BvK" id="aCx-uk-GNb"/>
+                        <outlet property="movieYear" destination="m5J-hj-wLO" id="flx-Z0-asU"/>
+                        <outlet property="summaryTextView" destination="ws2-Nx-2yz" id="8XL-7P-Rrw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fnE-xT-4mp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
